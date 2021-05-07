@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Larissa Souza</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Using FontAwesonme-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <section>
+            <!--navigation-->
+            <nav>
+                <!--logo-->
+                <a href="#" class="logo">Larissa Souza</a>
+                <!--menu-->
+                <ul>
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#" class="">Sobre</a></li>
+                    <li><a href="#" class="">Contate-me</a></li>
+                </ul>
+            <!--text-->
+            <div class="toogle"></div>
+            </nav>
+            <!--text-->
+            <div class="text-container">
+                <p>Olá,</p>
+                <p>Eu sou LARISSA SOUZA</p>
+                <p>PSICÓLOGA <br>& TECH RECRUITER</p>
+                <button class="hire-btn">Contate-me</button>
+                <button class="down-cv">Baixe meu CV</button>
+            </div>
+            <!--model-->
+            <img src="images/bg4.png" alt="model" class="model">
+        </section>
+        <!--about section-->
+        <div class="about-container">
+            <!--img-->
+            <img src="images/about3-img.png" alt="about">
+            <!--about-text-->
+            <div class="about-text">
+                <p>Sobre Mim</p>
+                <p>Psicóloga & Tech Recruiter</p>
+                <p>Olá, meu nome é Larissa Souza. Tenho 24 anos, sou formada em Psicologia, com especializações voltadas para a área de Recursos Humanos. 
+                    Experiências na área baseadas nos estágios da faculdade comprovados pelo certificado de conclusão de curso. 
+                    Habilidades pessoais de comunicação e de organização para conduzir e melhorar o departamento de RH, 
+                    recrutar funcionários ideais para o cargo e melhorar a eficiência dos departamentos. 
+                </p>
+                <p>Técnicas de negociação e contratação comercial, com capacidade de trabalhar de forma independente.
+                    Cursos no campo de Tech Recruiter e atualmente cursando uma pós na área de psicologia humanista existencial.
+                </p>
+                <button>Contrate-me</button>
+                <button>Baixe meu CV</button>
+            </div>
+        </div>
+        <!--Services-->
+        <div class="services">
+            <div class="services-text">
+                <p>Serviços</p>
+                <p>Services required</p>
+                <p>
+                    Serviços que podem ser feitos aqui.
+                </p>
+            </div>
+            <!--Box-->
+            <div class="box-container">
+                <!--1-->
+                <div class="box-1">
+                    <span>1</span>
+                    <p class="heading">Psicóloga</p>
+                    <p class="details">Um pouco do que pode fazer como psicóloga</p>
+                    <button>Leia mais</button>
+                </div>
+                <!--2-->
+                <div class="box-2">
+                    <span>2</span>
+                    <p class="heading">Tech Recruiter</p>
+                    <p class="details">Um pouco do que pode fazer como Tech Recruiter</p>
+                    <button>Leia mais</button>
+                </div>
+                <!--3-->
+                <div class="box-3">
+                    <span>3</span>
+                    <p class="heading">Se precisar</p>
+                    <p class="details">Um pouco do que pode fazer como Outra coisa</p>
+                    <button>Leia mais</button>
+                </div>
+            </div>
+        </div>
+        <!--Contate me-->
+        <div class="contact-me">
+            <p>Se tem algum projeto em mente</p>
+            <button>Contate-me</button>
+        </div>
+        <!--Footer-->
+        <footer>
+            <p>going to</p>
+            <p>Vou trazer resultados</p>
+            <!--Social-->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <!--Copyright-->
+            <p>Feito com 🧡 pela Maykonsoft</p>
+        </footer>
+        <!--Attached social bar-->
+        <div class="a-social-b">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <!--JQuery-->
+        <script type="text/javascript" src="js/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+            })
+        })
+        </script>
+    </body>
+</html>
