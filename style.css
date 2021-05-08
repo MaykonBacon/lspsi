@@ -52,7 +52,7 @@ nav ul li a {
     font-family: calibri;
     font-weight: bold;
     color: #6d6d6d;
-    font-size: 22px;
+    font-size: 30px;
 }
 .text-container p:nth-child(2){
     font-family: calibri;
@@ -69,7 +69,7 @@ nav ul li a {
 }
 .text-container p {
     line-height: 0px;
-    margin: 45px 0px 25px;
+    margin: 45px 0px 30px;
 }
 .text-container {
     position: absolute;
@@ -86,6 +86,17 @@ nav ul li a {
     font-size: 14px;
     outline: none;
     margin: 0px 10px;
+}
+.text-container strong {
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+}
+.text-container strong span {
+    color: #f76363;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: calibri;
 }
 .hire-btn {
     border: 2px solid #373636;
@@ -353,17 +364,38 @@ footer p:nth-child(2) {
     color: #2b2b2b;
     font-size: 20px;
 }
-@media(max-width: 1000px){
+@media(max-width: 1200px){
+    .model {
+        height: 531px;
+        left: 87%;
+        transform: translateX(-90%);
+    }
+}
+@media(max-width: 1440px){
+    .model {
+        height: 460px;
+        position: absolute;
+        bottom: 70px;
+        left: 83%;
+        transform: translateX(-70%);
+    }
+}
+@media(max-width: 1024px){
     *{
        box-sizing: border-box; 
     }
     .model {
-        height: 360px;
-        left: 72%;
+        height: 390px;
+        left: 92%;
+        top: 12%;
         transform: translateX(-90%);
     }
     .text-container{
         top: 46%;
+    }
+    .text-container p:nth-child(2) {
+        font-size: 50px;
+        margin-bottom: 20px;
     }
     .text-container button {
         margin: 5px;
@@ -414,7 +446,7 @@ footer p:nth-child(2) {
         width: 160px;
     }
 }
-@media screen and (max-width: 750px ) {
+@media screen and (max-width: 768px ) {
     section {
         background-image: none;
         background-color: #f7f7f7;
@@ -429,6 +461,14 @@ footer p:nth-child(2) {
         line-height: 40px;
         margin: 0px;
         padding: 0px;
+    }
+    .text-container strong{
+        list-style: none;
+        font-size: 30px;
+    }
+    .text-container strong span{
+        list-style: none;
+        font-size: 40px;
     }
     .text-container {
         top: 50%;
