@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Larissa Souza</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
         <!--Using FontAwesonme-->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"
@@ -30,9 +31,11 @@
             <div class="text-container">
                 <p>Olá,</p>
                 <p>Eu sou LARISSA SOUZA</p>
-                <p>PSICÓLOGA <br>& TECH RECRUITER</p>
-                <button class="hire-btn">Contate-me</button>
-                <button class="down-cv">Baixe meu CV</button>
+                <strong>Trabalho como <span class="typing"></span></strong>
+                <div>
+                    <button class="hire-btn">Contate-me</button>
+                    <button class="down-cv">Baixe meu CV</button>
+                </div>
             </div>
             <!--model-->
             <img src="images/bg4.png" alt="model" class="model">
@@ -125,6 +128,16 @@
                 $('.toggle').toggleClass('active')
             })
         })
+        </script>
+        <!--Typed-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".typing", {
+                strings: ["Psicóloga", "Tech Recruiter"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });
         </script>
     </body>
 </html>
